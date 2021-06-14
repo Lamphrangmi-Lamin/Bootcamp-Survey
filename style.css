@@ -1,0 +1,179 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(/img/pexels-designecologist-1779487.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Heading */
+#title, #description {
+    text-align: center;
+    color: #ffffff;
+}
+
+#title {
+    font-size: 34px;
+    margin: 2.8rem 0 1rem 0;
+    font-weight: 500;
+}
+
+#description {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 1.7rem;
+}
+
+
+/* Form */
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    background: rgba(11, 78, 90, 0.8);
+    color: #ffffff;
+    padding: 2rem;
+    width: 50%;
+    border-radius: 0.4rem;
+    margin: auto;
+    font-size: large;
+    font-weight: 500;
+}
+
+.name {
+    margin-bottom: 1.6rem;
+}
+
+#name {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 6px;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    background: #e4d7d7;
+}
+
+.email {
+    margin-bottom: 1.6rem;
+}
+
+#email {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 6px;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    background: #e4d7d7;
+}
+
+.number {
+    margin-bottom: 1.6rem;
+}
+
+#number {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 6px;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    background: #e4d7d7;
+}
+
+.dropdown {
+    margin-bottom: 1.6rem;
+}
+
+#dropdown {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 6px;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    background: #e4d7d7;
+}
+
+.recomd {
+    margin-bottom: 1.6rem;
+}
+
+.recomd p,
+.recomd input {
+    margin-bottom: 0.8rem;
+}
+
+.fav {
+    margin-bottom: 1.6rem;
+}
+
+#fav {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 6px;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    background: #e4d7d7;
+}
+
+.improvement {
+    margin-bottom: 1.6rem;
+}
+
+.improvement p {
+    margin-bottom: 0.8rem;
+}
+
+.improvement input {
+    margin-bottom: 0.8rem;
+}
+
+checkbox {
+    opacity: 0;
+}
+
+/* Comment box */
+.suggestions {
+    margin-bottom: 1.6rem;
+}
+
+.suggestions p {
+    margin-bottom: 0.8rem;
+}
+
+#textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 6px;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    background: #e4d7d7;
+}
+
+/* Submit Button */
+.submit {
+    margin: auto;
+    background: #5291cc;
+    width: 100%;
+    padding: 0.8rem;
+}
+
+#submit {
+    background: #5291cc;
+    width: 100%;
+    color: #ffffff;
+    border: none;
+}
